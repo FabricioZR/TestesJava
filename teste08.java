@@ -1,20 +1,22 @@
-                  //PRIMEIRO EXERCICIO DA SEGUNDA LISTA DO FERNANDO
+
+//PRIMEIRO EXERCICIO DA SEGUNDA LISTA DO FERNANDO
 import java.util.Scanner;
 
-class Autor{
+class Autor {
 
   public String name;
   public int id;
-  public void imprime(){
+
+  public void imprime() {
 
     System.out.println("Seu nome é: " + name + ", e seu id é: " + id);
 
   }
 }
 
-public class Fabricio{
+public class teste08 {
 
-  public static void main (String args[]){
+  public static void main(String args[]) {
 
     Scanner scanner = new Scanner(System.in);
     Autor a;
@@ -26,7 +28,5 @@ public class Fabricio{
     a.imprime();
 
   }
-
-
 
 }
