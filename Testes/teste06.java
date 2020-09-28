@@ -1,3 +1,5 @@
+package Testes;
+
 public class teste06 {
     public static void main(String args[]) {
         int i = 12;
