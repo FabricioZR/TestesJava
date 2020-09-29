@@ -1,5 +1,5 @@
 package ExerciciosLista01Moodle;
 
-public class exercicio04 {
+public class exercicioII {
 
 }

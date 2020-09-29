@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Personagem {
+class Pedro {
     String hero;
     String lado;
     String Serie;
@@ -12,7 +12,7 @@ class Exe {
 
     public static void main(String[] args) {
         Scanner h = new Scanner(System.in);
-        Personagem p = new Personagem();
+        Pedro p = new Pedro();
         System.out.print("Serie: ");
         p.Serie = h.nextLine();
         System.out.print("Nome Hero: ");
