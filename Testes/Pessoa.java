@@ -1,3 +1,5 @@
+package Testes;
+
 class Pessoa {
     int rg;
     int cpf;

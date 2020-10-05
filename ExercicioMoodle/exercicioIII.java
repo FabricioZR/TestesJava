@@ -1,4 +1,4 @@
-package ExerciciosLista01Moodle;
+package ExercicioMoodle;
 
 class Quadrado {
     public int lado;

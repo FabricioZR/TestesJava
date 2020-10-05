@@ -1,3 +1,5 @@
+package Testes;
+
 import java.util.Scanner;
 
 class Pedro {

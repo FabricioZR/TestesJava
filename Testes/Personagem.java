@@ -1,3 +1,5 @@
+package Testes;
+
 import java.util.Scanner;
 
 //Exercicio fazer uma classe em Java que represente um personagem de uma serie;
