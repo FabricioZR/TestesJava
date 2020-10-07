@@ -16,25 +16,25 @@ package Testes;
 
 //essas duas classes Pessoa E String fazem sentido isoladamente;
 
-class Pessoa {
+class Pessoaas {
 
     Data nascimento;
 
-    public Pessoa() {
+    public Pessoaas() {
         this.nascimento = new Data();
         // essa chamada aloca um esp de mem do data e chama o consultor da classe Data;
 
     }
 }
 
-class Data {
+class Dataas {
 
     int dia;
     int mes;
     int ano;
     String animal;
 
-    public Data() {
+    public Dataas() {
         this.animal = new String("dragao");
         // consultor para alocar um espaco de memoria para o objeto animal; instanciar;
     }
@@ -50,7 +50,7 @@ class Data {
 class Principal {
     public static void main(String args[]) {
 
-        Data nascimento = new Data();// novo espaco na memoria e chame o metodo pessoa;
+        Dataas nascimento = new Dataas();// novo espaco na memoria e chame o metodo pessoa;
 
         nascimento.dia = 22;
         nascimento.mes = 2;
@@ -58,7 +58,7 @@ class Principal {
         nascimento.imprime();
         // objeto.metodo;
 
-        Pessoa p = new Pessoa();
+        Pessoaas p = new Pessoaas();
         p.nascimento.dia = 23;
         p.nascimento.imprime();
         // pessoa e nascimento existem de forma separada - agragação;
@@ -67,7 +67,7 @@ class Principal {
         animal = "rato";
         animal.charAt(0);// charAt da o caracter no indice 0;
 
-        Pessoa pe = new Pessoa();
+        Pessoaas pe = new Pessoaas();
         pe.nascimento.animal = "rato";
         pe.nascimento.animal.charAt(0);
     }
