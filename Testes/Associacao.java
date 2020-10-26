@@ -1,5 +1,7 @@
 package Testes;
 
+import javax.print.DocFlavor.STRING;
+
 //uso uma classe para criar outra;
 //tipo abstrato quando voce cria a partir dos tipos primitivos
 //posso criar outras classes a partir de outros tipos complexos
@@ -19,9 +21,10 @@ package Testes;
 class Pessoaas {
 
     Data nascimento;
+    String animal;
 
     public Pessoaas() {
-        this.nascimento = new Data();
+        this.nascimento = new Dataas();
         // essa chamada aloca um esp de mem do data e chama o consultor da classe Data;
 
     }

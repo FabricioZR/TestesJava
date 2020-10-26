@@ -5,18 +5,19 @@
 Set e Get serve tb pra validar valores, nao aceitar negativos, etc...;
 Da pra usar com if (idade>0){this.idade=idade};
 
-
+Se usa metodos para que seja possivel acessar e modificar os atributos de uma classe private;
+get - obter;
 */
 
 class Pessoaaa {
     private int idade;
 
-    int getIdade() {
+    public int getIdade() {
         return this.idade;
         // vai retornar a idade da classe pessoa;
     }
 
-    void setIdade(int idade) {
+    public void setIdade(int idade) {
         // vai receber um valor e o colocar na propriedade idade;
         // nao retorna nada, entao é void;
         // serve tb pra fazer uma validação;
