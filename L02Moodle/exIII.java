@@ -16,6 +16,7 @@ class Retangulo {
     }
 
     public int getbase() {
+        return base;
     }
 
     public void setaltura(int b) {

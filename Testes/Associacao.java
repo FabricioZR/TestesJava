@@ -20,11 +20,12 @@ import javax.print.DocFlavor.STRING;
 
 class Pessoaas {
 
-    Data nascimento;
+    Dataas nascimento;
     String animal;
 
     public Pessoaas() {
         this.nascimento = new Dataas();
+        this.animal = "vazio";
         // essa chamada aloca um esp de mem do data e chama o consultor da classe Data;
 
     }
@@ -35,10 +36,16 @@ class Dataas {
     int dia;
     int mes;
     int ano;
-    String animal;
 
     public Dataas() {
-        this.animal = new String("dragao");
+        this.dia = 12;
+        this.mes = 12;
+        this.ano = 12;
+    }
+
+    public lula() {
+        Pessoaas pes = new Pessoaas();
+        pes.animal = "dragao";
         // consultor para alocar um espaco de memoria para o objeto animal; instanciar;
     }
 
@@ -66,12 +73,9 @@ class Principal {
         p.nascimento.imprime();
         // pessoa e nascimento existem de forma separada - agragação;
 
-        String animal = new String("dragao");
-        animal = "rato";
-        animal.charAt(0);// charAt da o caracter no indice 0;
-
         Pessoaas pe = new Pessoaas();
         pe.nascimento.animal = "rato";
         pe.nascimento.animal.charAt(0);
+        // charAt da o caracter no indice 0;
     }
 }

@@ -42,7 +42,8 @@ public class AssinaturaDeMetodo {
 
     Assinatura a = new Assinatura(); // aqui chama o primeiro People pois nao tem nenhum parametro;
 
-    Assinatura a = new Assinatura(9); // aqui chama o segundo People pois tem parametro int;
+    Assinatura ab = new Assinatura(9); // aqui chama o segundo People pois tem parametro int;
 
-    Assinatura a = new Assinatura(3.0); // Nao tem esse construtor, nenhum tem parametro double;
+    // Assinatura abc = new Assinatura(3.0);
+    // Nao tem esse construtor, nenhum tem parametro double;
 }

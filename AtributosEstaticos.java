@@ -49,6 +49,6 @@ class Testeeee {
         p.peso = 9.3;
 
         int x = Matematica.soma(2, 3);
-
+        System.out.println(x);
     }
 }
