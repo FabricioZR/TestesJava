@@ -62,3 +62,34 @@ class heranca {
         ret.y = 10;
     }
 }
+
+class Olha {
+    public static void oi(int a) {
+        /*
+         * System.out.println( "oi = "+a); a = 40;
+         */
+    }
+
+    public static void main(String args[]) {
+        int b = 80;
+        oi(b);
+        // int r = 2;
+        // int g = 2;
+        String r = new String("oi");
+        String g = new String("oi");
+
+        /*
+         * if(r == g){ System.out.println( "igual"); }else{ System.out.println(
+         * "diferente"); }
+         */
+
+        if (r.equals(g) == true) {
+            System.out.println("igual");
+        } else {
+            System.out.println("diferente");
+        }
+
+        // System.out.println( b);
+
+    }
+}
