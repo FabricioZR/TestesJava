@@ -27,14 +27,13 @@ class Personagemmmm{
     private double peso;
     private int altura;
     private String nome;
-    public class Ferramentasssss();
 
     public int getId(){
         return this.id;
     }
     public void setId(int ide){
     }
-    public int getPeso(){
+    public double getPeso(){
         return this.peso;
     }
     public void setPeso(double p){  
@@ -55,7 +54,7 @@ class Ferramentasssss{
     private double pesoF;
     private String nomeF;  
 
-    public int getPesoF(){
+    public double getPesoF(){
         return this.pesoF;
     }
     public void setPesoF(double pf){  

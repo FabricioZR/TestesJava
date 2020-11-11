@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class TesteMemoria {
     public static void main(String[] args) {
         int indice = 0;
-        Variavel[] variaveis = new Variavel[1000];
+        Variaveis[] variaveis = new Variaveis[1000];
         
         try {
             File arquivo = new File("teste.txt");
@@ -18,7 +18,7 @@ public class TesteMemoria {
                 if(linha.equals("oi")) {
                     System.out.println("ABACATE!!!!!!!");    
                 } else if(linha.equals("var")) {
-                    variaveis[indice] = new Variavel();
+                    variaveis[indice] = new Variaveis();
                     variaveis[indice].nome = "ola";
                     variaveis[indice].valor = 20;
                     indice++;
