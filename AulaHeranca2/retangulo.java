@@ -1,4 +1,4 @@
-package AulaHeranca;
+package AulaHeranca2;
 
 class Retangulo extends Forma {
     public int base;

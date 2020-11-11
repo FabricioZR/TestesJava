@@ -1,4 +1,4 @@
-package AulaHeranca;
+package AulaHeranca2;
 
 class Forma extends entidade {
 
