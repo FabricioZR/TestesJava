@@ -1,7 +1,5 @@
 package Testes;
 
-import javax.print.DocFlavor.STRING;
-
 //uso uma classe para criar outra;
 //tipo abstrato quando voce cria a partir dos tipos primitivos
 //posso criar outras classes a partir de outros tipos complexos
@@ -27,23 +25,20 @@ class Pessoaas {
         this.nascimento = new Dataas();
         this.animal = "vazio";
         // essa chamada aloca um esp de mem do data e chama o consultor da classe Data;
-
     }
 }
-
 class Dataas {
-
     int dia;
     int mes;
     int ano;
-
+    
     public Dataas() {
         this.dia = 12;
         this.mes = 12;
         this.ano = 12;
     }
 
-    public lula() {
+    public void lula() {
         Pessoaas pes = new Pessoaas();
         pes.animal = "dragao";
         // consultor para alocar um espaco de memoria para o objeto animal; instanciar;
@@ -54,9 +49,7 @@ class Dataas {
         System.out.println("mes = " + this.mes);
         System.out.println("ano = " + this.ano);
     }
-
 }
-
 class Principal {
     public static void main(String args[]) {
 
@@ -74,8 +67,9 @@ class Principal {
         // pessoa e nascimento existem de forma separada - agragação;
 
         Pessoaas pe = new Pessoaas();
-        pe.nascimento.animal = "rato";
-        pe.nascimento.animal.charAt(0);
+
+        pe.animal = "rato";
+        pe.animal.charAt(0);
         // charAt da o caracter no indice 0;
     }
 }

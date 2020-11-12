@@ -1,8 +1,10 @@
-public class Variavel {
+package TestesTrab02;
+
+class Variaveis {
     public String nome;
     public double valor;
 
-    public Variavel() {
+    public Variaveis() {
         this.nome = "?";
         this.valor = 0;
     }

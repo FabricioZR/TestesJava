@@ -1,10 +1,12 @@
-import java.util.Scanner; 
+package ManipulacaoArquivos;
+
+import java.util.Scanner;
 import java.io.File;
 
  class LerArquivo {
     public static void main(String[] args){
         try{
-            File arquivo = new File("teste.txt");
+            File arquivo = new File("/ManipulacaoArquivos/teste.txt");
             Scanner teclado = new Scanner(arquivo);
 
             System.out.println("Digite uma palavra");
