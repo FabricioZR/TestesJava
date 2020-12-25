@@ -1,9 +1,7 @@
 /*
 TRY _ CATCH _ FINALLY
 tratamento de erros;
-
 */
-
 //                             é
 class ErroParametroNegativo extends Exception {
     public int id;
